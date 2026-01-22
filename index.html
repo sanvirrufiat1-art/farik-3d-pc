@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farik's REAL 3D PC</title>
+
+  <!-- model-viewer -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0f;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+      padding: 14px;
+      text-align: center;
+      background: linear-gradient(90deg, #00ffff, #ff00ff);
+      color: black;
+      font-weight: bold;
+    }
+    model-viewer {
+      width: 100vw;
+      height: calc(100vh - 56px);
+      background: #0b0b0f;
+    }
+  </style>
+</head>
+<body>
+
+<header>🔥 Farik's ACTUAL 3D PC — Drag • Rotate • Zoom</header>
+
+<model-viewer 
+  src="https://modelviewer.dev/shared-assets/models/Computer.glb"
+  alt="3D Gaming PC"
+  auto-rotate
+  camera-controls
+  exposure="1"
+  shadow-intensity="1">
+</model-viewer>
+
+</body>
+</html>
